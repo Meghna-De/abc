@@ -1,8 +1,73 @@
+*{
+    margin:40;
+    background-color: #caf0f8;
+}
 h1{
     text-align: center;
-    background-color:  #04395e ;
-    color: #70a288;
+    background-color: #a8dadc ;
+    color: black;
+    border:20% ;
+    margin-bottom:20px ;
 }
-#main{
+#main{ 
+    
+    height: 150%;
+    width :100%; 
     text-align: center;
+    border:3px solid #00b4d8;
+     /* border-width: 100px ; */
+} 
+form{
+    height: 200px;
+    width: 200; 
+     margin:10px;
+}
+/* #username:hover{
+    background-color: #70a288;
+    width: 50;
+    border-radius: 10%;
+    border-color: #219ebc ;
+} */
+ #main:active{
+    /* background-color: pink; */
+}
+#email:hover{
+
+}
+#pw:hover{
+
+}
+#repeat-password:hover{
+
+} 
+#username{
+    margin: 10px;
+    /* border:2px solid #219ebc ; 
+    padding :0px; */
+    /* border: 1px solid #669bbc;  */
+}
+#email{
+    margin: 10px;
+    border-color: #219ebc ;
+    /* border: 1px solid #669bbc;  */
+}
+#pw{
+    margin: 10px;
+    border-color: #219ebc ;
+    /* border: 1px solid #669bbc;  */
+}
+#repeat-password{
+    margin: 10px;
+    /* border: 1px solid #669bbc;  */
+}
+button{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform : uppercase;
+    background-color: #023e8a;
+    color: whitesmoke;
+    
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
